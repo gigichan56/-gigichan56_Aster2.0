@@ -1,0 +1,433 @@
+html{
+	width: 100%;
+	padding: auto;
+	margin: auto;
+    
+    
+}
+
+body{
+	background-color:   #222222 !important;
+}
+
+* {
+	box-sizing: border-box;
+}
+p,h1,h2,h3,h4,h4,h6,div,span {
+	font-family:PingFangSC-Regular,sans-serif,Microsoft JhengHei;	
+}
+
+@font-face {
+	font-family: Source Han Serif TC; 
+	src: url(../../font/SourceHanSerif-SemiBold.ttc);
+}
+
+/*桌面字型大小*/
+p {
+	font-size: 16px !important; 
+}
+
+h1{
+	font-size: 52px !important;
+	font-family: Source Han Serif TC; 
+}
+
+h2{
+	font-size: 44px !important;
+	font-family: Source Han Serif TC; 
+}
+
+h3{
+	font-size: 36px !important;
+	font-family: Source Han Serif TC; 
+}
+
+h4{
+	font-size: 28px !important;
+}
+
+h5{
+  font-size: 24px !important;
+}
+
+h6{
+	font-size: 16px !important;
+}
+
+
+/*平板*/
+@media (max-width: 768px) {
+	p {
+		font-size: 12px !important;
+	}
+	
+	h1{
+		font-size: 44px !important;
+		font-family: Source Han Serif TC; 
+	}
+	
+	h2{
+		font-size: 36px !important;
+		font-family: Source Han Serif TC; 
+	}
+	
+	h3{
+		font-size: 28px !important;
+		font-family: Source Han Serif TC; 
+	}
+	
+	h4{
+		font-size: 20px !important;
+	}
+
+	h5{
+		font-size: 16px !important;
+	}
+	
+	h6{
+		font-size: 12px !important;
+	}
+}
+
+/*手機*/
+@media (max-width: 360px) {
+	p {
+		font-size: 12px !important;
+	}
+	
+	h1{
+		font-size: 40px !important;
+		font-family: Source Han Serif TC; 
+	}
+	
+	h2{
+		font-size: 32px !important;
+		font-family: Source Han Serif TC; 
+	}
+	
+	h3{
+		font-size: 24px !important;
+		font-family: Source Han Serif TC; 
+	}
+	
+	h4{
+		font-size: 16px !important;
+	}
+
+	h5{
+		font-size: 16px !important;
+	}
+	
+	h6{
+		font-size: 12px !important;
+	}
+}
+
+body{
+	line-height: 0 !important;
+}
+
+
+/*ani*/
+@keyframes fade-in{  
+    0%{ opacity: 0;}
+    100%{opacity:1;}
+}
+@-webkit-keyframes fade-in{
+    0%{ opacity: 0;}
+    100%{opacity:1;}
+}
+@-ms-keyframes fade-in{
+    0%{ opacity: 0;}
+    100%{opacity:1;}
+}
+@-o-keyframes fade-in{
+    0%{ opacity: 0;}
+    100%{opacity:1;}
+}
+@-moz-keyframes fade-in{
+    0%{ opacity: 0;}
+    100%{opacity:1;}
+}
+
+/*導覽列*/
+a{
+	text-decoration:none !important;
+}
+
+
+.header_bar{
+	display: flex;
+	justify-content: center;
+	font-size: 24px;
+	height: 150px;
+	padding: 0;
+	margin: 0;
+    background-color: #272727;
+}
+
+@media (max-width: 768px) {
+	.header_bar{
+		height: 140px;
+		font-size: 16px;
+	}
+}
+
+.header-link{
+	margin: 37px 77px 39px ;
+	display: flex;
+	align-items: center;
+	color:#E5CCA4;
+}
+
+.header-link a :hover{
+	color:white !important;
+}
+
+.header-link a :active{
+	color:white !important;
+}
+
+@media (max-width: 768px) {
+	.header-link{
+		margin: 25px 44px 26px ;
+	}
+}
+
+
+.logo{
+	display: flex;
+	width: 150px;
+	height: 150px;
+}
+
+@media (max-width: 768px) {
+	.logo{
+		width: 125px !important;
+	    height: 125px !important;
+	}
+}
+
+.header_btn_line{
+	display: flex;
+    position: absolute;
+	border: 1px solid #E5CCA4;
+	width: 50px;
+	margin: 30px 0 0;
+	align-items: center;
+}
+
+
+.header_links-left{
+	display: flex;
+	justify-content: flex-end;
+}
+
+
+
+.header_links-right{
+	display: flex;
+	justify-content: flex-start;
+  
+}
+
+
+.header_line{
+	padding: 0;
+	margin: 0;
+	background-color: #E5CCA4;
+}
+
+
+
+
+/*proudct*/
+.item_box{
+	margin: 50px auto;
+	color: azure;
+}
+
+.product_img{
+	width: 480px;
+	height: 600px;
+	padding:60px 25px;
+	margin: auto;
+	
+}
+
+.product_img img{
+	max-width: 100%;
+	max-height: 100%;
+	
+}
+
+
+/*potion contact*/
+.potion_contact{
+	margin: 50px 0;
+}
+
+.potion_element{
+	margin: 52px 0 ;
+}
+
+.potion_notice{
+	margin: 0 0 107px ;
+}
+
+
+.potion_contact p{
+	margin: 0 24px;
+	color: #E5CCA4;
+}
+
+.line{
+	height: 16px;
+	border: 1px solid #E5CCA4;
+	border-radius: 10px;
+
+}
+
+h3{
+	color: #E5CCA4;
+
+}
+
+ .potion_title, .potion_title{
+	color: #E5CCA4B8;
+
+}
+
+
+/*svg*/
+svg{
+	height: 20px;
+    width: 10px;
+	fill:#E5CCA4;
+}
+.potion_item svg{
+	height: 60px;
+	width: 60px;
+}
+
+
+
+/*其他魔藥*/
+
+
+.other_potion{
+	margin: 64px 0;
+}
+
+.other_potion h3{
+	color: #E5CCA4;
+	margin: 0 30px ;
+}
+
+.dia_arrow{
+	width: 10px;
+	height: 10px;
+	transform: rotate(45deg);
+	background-color: #E5CCA4;
+}
+
+.arrow_line{
+	width: 30%;
+	border: solid 1px #E5CCA4;
+}
+
+.potion_card{
+	position: relative;
+    border: solid 1px #E5CCA4;
+    overflow: hidden;
+	width: auto;
+	height: 360px;
+	padding: 30px 20px
+}
+
+
+
+
+/* The colour of the indicators  點點*/
+ .carousel-indicators div {
+    background: #908167 !important;
+    border-radius: 0;
+    width: 16px ;
+	height: 16px ;
+	margin: 0px 12px;
+	transform: rotate(45deg);
+
+}
+
+.carousel-indicators .active {
+background: #E5CCA4 !important;
+border-radius: 50%;
+transform: rotate(45deg);
+
+}
+
+
+.carousel-indicators {
+	margin: -80px 0;
+
+}
+
+
+
+
+
+
+/*footer*/
+/*footer*/
+@media (max-width: 768px) {
+	footer{
+		margin: 217px 0 0;
+		padding:64px 0;
+	}
+
+}
+
+footer{
+	margin: 264px 0 0;
+}
+
+footer h6{
+	color:#E5CCA4;
+	
+}
+
+footer p{
+	color: white;
+	letter-spacing: 0.05em;
+	line-height: 20px;
+}
+
+.Business_hours{
+	margin: 87px 0 24px;
+}
+
+.contact{
+	margin: 0 0 48px;
+}
+
+.info{
+	margin: 0 0 64px;
+}
+
+.info_btn{
+	margin: 0 12px;
+}
+
+.aster_magic{
+	margin: 18px auto;
+}
+
+footer svg{
+    height: 48px;
+    width: 48px;
+	fill:#E5CCA4;
+}
+
+footer svg:hover{
+	fill:white;
+}
